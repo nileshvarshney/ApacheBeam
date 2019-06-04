@@ -2,6 +2,9 @@ from __future__ import absolute_import
 import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions
 from apache_beam.options.pipeline_options import SetupOptions
+# For Google Cloud
+from apache_beam.options.pipeline_options import GoogleCloudOptions
+from apache_beam.options.pipeline_options import StandardOptions
 from apache_beam.metrics import Metrics
 from apache_beam.metrics import MetricsFilter
 from apache_beam.io import WriteToText
@@ -44,17 +47,30 @@ def run(argv=None):
     parser = argparse.ArgumentParser()
     parser.add_argument('--input',
                         dest='input',
-                        default='data.txt',
+                        default='../data/data.txt',
                         help='Input file to process')
     parser.add_argument('--output',
                         dest='output',
-                        default='output.txt',
+                        default='../output/output.txt',
                         help='output file')
 
     known_args, pipeline_args = parser.parse_known_args(argv)
 
     pipeline_option = PipelineOptions(pipeline_args)
-    pipeline_option.view_as(SetupOptions).save_main_session = True
+
+    # DirectRunner : Default Runner to run the program locally
+    # To Run Locally
+    pipeline_option.view_as(StandardOptions).runner = 'DirectRunner'
+
+    # To Run on Google Cloud
+    # pipeline_option = pipeline_option.view_as(GoogleCloudOptions)
+    # pipeline_option.project = 'my-project-id'
+    # pipeline_option.job_name = 'myjob'
+    # pipeline_option.staging_location = 'gs://your-bucket-name-here/staging'
+    # pipeline_option.temp_location = 'gs://your-bucket-name-here/temp'
+    # pipeline_option.view_as(StandardOptions).runner = 'DataflowRunner'
+
+    # pipeline_option.view_as(SetupOptions).save_main_session = True
 
     p = beam.Pipeline(options=pipeline_option)
 

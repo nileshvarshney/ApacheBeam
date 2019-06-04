@@ -1,0 +1,10 @@
+# To Run a data flow pipeline on google dataflow
+==================================================
+python <python_file> \
+--input <input file location in google storage> \
+--output <output file location in google storage> \
+--runner DataflowRunner \
+--project <project_id> \
+--temp_location <temp location on google storage>\
+--num_workers=1
+
