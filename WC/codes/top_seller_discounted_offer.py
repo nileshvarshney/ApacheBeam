@@ -16,7 +16,7 @@ from apache_beam.io import ReadFromText
 from apache_beam.io import WriteToText
 from apache_beam.pvalue import AsList
 import logging
-from apache_beam.coders import coders
+
 
 
 class TopSellingProducts(beam.DoFn):
