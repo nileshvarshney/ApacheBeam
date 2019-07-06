@@ -33,8 +33,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WC/codes/use_cogroupby.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="-11">
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,8 +87,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="26" />
-    <option name="y" value="496" />
+    <option name="y" value="413" />
     <option name="width" value="1680" />
     <option name="height" value="976" />
   </component>
@@ -345,12 +347,12 @@
       <workItem from="1559703922092" duration="12413000" />
       <workItem from="1560024232809" duration="5888000" />
       <workItem from="1560051321296" duration="3505000" />
-      <workItem from="1560063058542" duration="6030000" />
+      <workItem from="1560063058542" duration="6195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44740000" />
+    <option name="totallyTimeSpent" value="44905000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,8 +364,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="976" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="413" width="1680" height="976" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49929875" weight="0.25824177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -372,7 +373,7 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4841629" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" side_tool="true" visible="true" weight="0.37327188" />
+      <window_info anchor="bottom" id="Run" order="4" side_tool="true" weight="0.37327188" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32949308" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -589,8 +590,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WC/codes/use_cogroupby.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="-11">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
