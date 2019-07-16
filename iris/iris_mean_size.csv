@@ -1,0 +1,4 @@
+class,sepal_length,sepal_width,petal_length,petal_width,counts
+Iris-virginica,6.59,2.97,5.55,2.03,50
+Iris-setosa,5.01,3.42,1.46,0.24,50
+Iris-versicolor,5.94,2.77,4.26,1.33,50
