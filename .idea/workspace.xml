@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a916815e-6cc3-4450-a0f8-af68368b9d84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Transformations/flatten.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WC/codes/demo_ParDo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris/iris_combine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WC/data/spikey_sales_weekly.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WC/data/spikey_sales_weekly.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,79 +30,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Transformations/flatten.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iris/seperate_iris_class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="103">
+              <caret line="41" lean-forward="true" selection-end-line="62" selection-end-column="9" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iris/iris_combine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Transformations/flattened_records_Male.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Transformations/flattened_records_emp_short_info.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Transformations/flattened_recordsJan_M.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Transformations/flattened_records.csv">
+        <entry file="file://$PROJECT_DIR$/iris/iris_mean_size_combine.csv">
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
           <provider selected="true" editor-type-id="csv-text-editor">
             <state>
-              <caret selection-end-column="69" />
+              <caret selection-end-line="2" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Transformations/records_50.csv">
+        <entry file="file://$PROJECT_DIR$/iris/iris_mean_size.csv">
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="541">
-              <caret line="48" column="279" selection-start-line="48" selection-start-column="279" selection-end-line="48" selection-end-column="279" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WC/codes/demo_ParDo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-751">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="78">
+              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -147,10 +115,11 @@
         <option value="$PROJECT_DIR$/iris/seperate_iris_class.py" />
         <option value="$PROJECT_DIR$/Transformations/records_50.csv" />
         <option value="$PROJECT_DIR$/Transformations/flatten.py" />
+        <option value="$PROJECT_DIR$/iris/iris_combine.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="370" />
     <option name="y" value="189" />
     <option name="width" value="1869" />
@@ -171,7 +140,7 @@
             <path>
               <item name="ApacheBeam" type="b2602c69:ProjectViewProjectNode" />
               <item name="ApacheBeam" type="462c0819:PsiDirectoryNode" />
-              <item name="Transformations" type="462c0819:PsiDirectoryNode" />
+              <item name="iris" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ApacheBeam" type="b2602c69:ProjectViewProjectNode" />
@@ -221,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.flatten">
+  <component name="RunManager" selected="Python.iris_combine">
     <configuration name="demo_ParDo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ApacheBeam" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,7 +235,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="selling_product_revenue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="iris_combine" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ApacheBeam" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,12 +243,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WC/codes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iris" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WC/codes/selling_product_revenue.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iris/iris_combine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -379,19 +348,19 @@
     <list>
       <item itemvalue="Python.wordCount" />
       <item itemvalue="Python.wordCount_debugging" />
-      <item itemvalue="Python.selling_product_revenue" />
       <item itemvalue="Python.use_cogroupby" />
       <item itemvalue="Python.demo_ParDo" />
       <item itemvalue="Python.seperate_iris_class" />
       <item itemvalue="Python.flatten" />
+      <item itemvalue="Python.iris_combine" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.iris_combine" />
         <item itemvalue="Python.flatten" />
         <item itemvalue="Python.seperate_iris_class" />
         <item itemvalue="Python.demo_ParDo" />
         <item itemvalue="Python.use_cogroupby" />
-        <item itemvalue="Python.selling_product_revenue" />
       </list>
     </recent_temporary>
   </component>
@@ -412,12 +381,12 @@
       <workItem from="1560051321296" duration="3505000" />
       <workItem from="1560063058542" duration="6195000" />
       <workItem from="1562813141251" duration="11585000" />
-      <workItem from="1563235570954" duration="13917000" />
+      <workItem from="1563235570954" duration="14988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70407000" />
+    <option name="totallyTimeSpent" value="71478000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,17 +398,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="24" width="1629" height="1027" extended-state="6" />
+    <frame x="370" y="189" width="1869" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49929875" visible="true" weight="0.17454316" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49929875" visible="true" weight="0.15161467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50070125" side_tool="true" weight="0.25824177" />
       <window_info active="true" anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.32949308" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49972633" weight="0.30663857" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.50027364" side_tool="true" visible="true" weight="0.27203482" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.50027364" side_tool="true" weight="0.27203482" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32949308" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -485,18 +454,19 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ApacheBeam$wordCount_debugging.coverage" NAME="wordCount_debugging Coverage Results" MODIFIED="1559416404597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WC" />
     <SUITE FILE_PATH="coverage/ApacheBeam$use_cogroupby.coverage" NAME="use_cogroupby Coverage Results" MODIFIED="1562814890659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WC/codes" />
-    <SUITE FILE_PATH="coverage/ApacheBeam$flatten.coverage" NAME="flatten Coverage Results" MODIFIED="1563263039526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Transformations" />
+    <SUITE FILE_PATH="coverage/ApacheBeam$flatten.coverage" NAME="flatten Coverage Results" MODIFIED="1563291797503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Transformations" />
     <SUITE FILE_PATH="coverage/ApacheBeam$SearchWineary.coverage" NAME="SearchWineary Coverage Results" MODIFIED="1559632966548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WC/codes" />
-    <SUITE FILE_PATH="coverage/ApacheBeam$demo_ParDo.coverage" NAME="demo_ParDo Coverage Results" MODIFIED="1563171696622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WC/codes" />
     <SUITE FILE_PATH="coverage/ApacheBeam$hourly_sales.coverage" NAME="hourly_sales Coverage Results" MODIFIED="1560060531956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WC/codes" />
-    <SUITE FILE_PATH="coverage/ApacheBeam$top_bottom_selling_product.coverage" NAME="top_bottom_selling_product Coverage Results" MODIFIED="1559715411978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WC/codes" />
-    <SUITE FILE_PATH="coverage/ApacheBeam$wordCount__1_.coverage" NAME="wordCount (1) Coverage Results" MODIFIED="1559631715972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WC/codes" />
+    <SUITE FILE_PATH="coverage/ApacheBeam$iris_combine.coverage" NAME="iris_combine Coverage Results" MODIFIED="1563292046236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/iris" />
     <SUITE FILE_PATH="coverage/ApacheBeam$top_seller_discounted_offer.coverage" NAME="top_seller_discounted_offer Coverage Results" MODIFIED="1559718618655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WC/codes" />
-    <SUITE FILE_PATH="coverage/ApacheBeam$selling_product_revenue.coverage" NAME="selling_product_revenue Coverage Results" MODIFIED="1560099965033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WC/codes" />
     <SUITE FILE_PATH="coverage/ApacheBeam$seperate_iris_class.coverage" NAME="seperate_iris_class Coverage Results" MODIFIED="1563257459953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/iris" />
     <SUITE FILE_PATH="coverage/ApacheBeam$wordCount.coverage" NAME="wordCount Coverage Results" MODIFIED="1559631656378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WC" />
+    <SUITE FILE_PATH="coverage/ApacheBeam$wordCount_debugging.coverage" NAME="wordCount_debugging Coverage Results" MODIFIED="1559416404597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WC" />
+    <SUITE FILE_PATH="coverage/ApacheBeam$demo_ParDo.coverage" NAME="demo_ParDo Coverage Results" MODIFIED="1563171696622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WC/codes" />
+    <SUITE FILE_PATH="coverage/ApacheBeam$top_bottom_selling_product.coverage" NAME="top_bottom_selling_product Coverage Results" MODIFIED="1559715411978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WC/codes" />
+    <SUITE FILE_PATH="coverage/ApacheBeam$wordCount__1_.coverage" NAME="wordCount (1) Coverage Results" MODIFIED="1559631715972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WC/codes" />
+    <SUITE FILE_PATH="coverage/ApacheBeam$selling_product_revenue.coverage" NAME="selling_product_revenue Coverage Results" MODIFIED="1560099965033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WC/codes" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -705,26 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iris/iris_mean_size.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iris/seperate_iris_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iris/iris.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
@@ -735,10 +685,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WC/codes/demo_ParDo.py">
+    <entry file="file://$PROJECT_DIR$/Transformations/flatten.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-751">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        <state relative-caret-position="401">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transformations/flattened_records_Male.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transformations/flattened_records_emp_short_info.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transformations/flattened_recordsJan_M.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -762,38 +741,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Transformations/flattened_recordsJan_M.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Transformations/flattened_records_emp_short_info.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Transformations/flattened_records_Male.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Transformations/flatten.py">
+    <entry file="file://$PROJECT_DIR$/WC/codes/demo_ParDo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="-751">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iris/iris_mean_size.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iris/seperate_iris_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="41" lean-forward="true" selection-end-line="62" selection-end-column="9" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iris/iris_mean_size_combine.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iris/iris_combine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
